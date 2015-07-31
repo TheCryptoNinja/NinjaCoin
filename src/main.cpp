@@ -831,7 +831,7 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 
 int64 GetProofOfWorkReward(uint256 hashPrevBlock)
 {
-    int64 nSubsidy = 1;
+    int64 nSubsidy = 1 * COIN;
     return nSubsidy;
 }
 
